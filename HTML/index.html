@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="keywords" content="Musica, bandas, podcast, playlist">
+        <meta name="viewport" content="device=width-device, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <title>Spotify</title>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <a class="spotifyLogo"></a>
+            </header>
+            <main class="principal">
+                <div>
+                    <p>Para continuar, faça login no Spotify</p><br>
+                    <button class="button">Continuar com o facebook</button><br><br>
+                    <button class="button">Continuar com a apple</button><br><br>
+                    <button class="button">Continuar com o google</button><br><br>
+                    <button class="button">Continuar com o número de telefone</button><br><br>
+                </div>
+                <div>
+                    <p>ou</p>
+                    <form method="GET" action="">
+                        <div>
+                            <label>Endereço de e-mail ou nome de usuário</label><br>
+                            <input type="text" name="username" id="username" placeholder="Endereço de e-mail ou nome de usuário" required ><br>
+                        </div>
+                        <div>
+                            <label>Senha</label><br>
+                            <input type="password" name="password" id="password" placeholder="Senha" required>
+                        </div>
+                        <div>
+                            <a id="esqueci a senha" href="#">Esqueceu a senha?</a>
+                        </div>
+                        <div>
+                            <label>Lembrar de min</label>
+                            <input type="checkbox" name="lembrarDeMin" id="lembrarDeMin" checked>
+                        </div>
+                        <input type="button" name="loginButton" id="loginButton" value="Login" >
+                    </form>
+                </div>
+                <div>
+                    <p>Não tem uma conta?</p>
+                    <button href="#" id="inscrever se">Increver-se no spotify</button>
+                </div>   
+            </main>
+        </div>
+    </body>
+</html>
